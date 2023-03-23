@@ -1,3 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap');
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*transition: all 0.4s ease-in-out; */
+}
+/*-------------COLORES-------------*/
+.fondo{
+    background-color: #060614;
+}
+.violeta{
+    background-color: #ac6bd6;
+}
+.azuloscuro{
+    background-color: #1b1b47;
+}
+.rojo{
+    background-color: rgb(212, 31, 31);
+}
+.verde{
+    background-color: rgb(44, 117, 54);
+}
+.naranja{
+    background-color: rgb(224, 125, 43);
+}
+.blancot{
+    color: rgb(228, 228, 228);
+}
+.violetat{
+    color: #4d4dce;
+}
+.grist{
+    color: rgb(112, 112, 112);
+}
+/*-------------CONTENEDORES-------------*/
+#contenedor{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding: 8%;
+}
+#texto{
+
+}
+#imagen{
+    background-image: url("img/imagenvioleta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*-------------TAMAÑOS-------------*/
+.w50{
+    width: 50%;
+}
+.h500{
+    height: 500px;
+}
+.h250{
+    height: 250px;
+}
+.brl{
+    border-radius: 10px 0 0 10px;
+}
+.brr{
+    border-radius: 0 10px 10px 0;
+}
+/*-------------ORDENAMIENTO-------------*/
+.dflex{display: flex;}
+/*.fl{
+    float: left;
+}
+.clearb{
+    clear: both;
+}
+*/
+.columna{
+    flex-direction: column;
+}
+.pd20{
+    padding: 60px;
+}
+.spb{
+    justify-content: space-between;
+}
+.spa{
+    justify-content: space-around;
+}
+/* -------------TIPOGRAFIAS------------- */
+.fontgolos{
+    font-family: 'Golos Text', sans-serif;
+}
+.fw900{
+    font-weight: 900;
+}
+.title p{ 
+    font-size: 40px;
+}
+.desc p{
+    font-size: 20px;
+}
+/*-------------MEDIA QUERIES-------------*/
+@media screen and (max-width: 667px) {
+    .flexdir{
+        flex-direction: column-reverse;
+    }
+    .h300{
+        height: 300px;
+    }
+    .h600{
+        height: 600px;
+    }
+    .w50{
+        width: 100%;
+    }
+    .colm{
+        flex-direction: column;
+    }
+    .brl{
+        border-radius: 0 0 10px 10px;
+    }
+    .brr{
+        border-radius: 10px 10px 0 0;
+    }
+    .txtc{
+        text-align: center;
+    }
+    .title p{
+        font-size: 30px;
+    }
+    .desc p{
+        font-size: 20px;
+    }
 }
