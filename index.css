@@ -30,7 +30,7 @@ footer{
 }
 /* Container ------------------------- */
 #contendor{
-    height: 800px;
+    height: 100%;
     width: 80%;
     margin: auto;
 }
@@ -82,9 +82,20 @@ li a{
     padding: 20px;
 }
 .pd15{
-    padding: 15px;
+    padding: 10px 0;
+}
+.pd5{
+    padding: 5px;
 }
 /* Card ------------------------------ */
 .card{
     background-color: #043c60;
+    border-radius: 20px;    
+}
+.boton{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
