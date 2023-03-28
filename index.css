@@ -24,6 +24,10 @@ footer{
     background-color: #ffffff;
     line-height: 60px;
 }
+/* Colores --------------------------- */
+.bgwhite{
+    background-color: white;
+}
 /* Container ------------------------- */
 #contendor{
     height: 800px;
@@ -34,12 +38,16 @@ footer{
 .w150{
     width: 150px;
 }
+.w300{
+    width: 300px;
+}
+.h200{
+    height: 200px;
+}
 /* Listas ---------------------------- */
 .lsout{
     list-style: none;
 }
-
-
 /* Tipografia -------------------------*/
 .txta{
     text-align: center;
@@ -72,4 +80,11 @@ li a{
 }
 .pd20{
     padding: 20px;
+}
+.pd15{
+    padding: 15px;
+}
+/* Card ------------------------------ */
+.card{
+    background-color: #043c60;
 }
