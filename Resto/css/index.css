@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* colores------------------ */
+.bgb{
+    background-color: #21325E;
+}
+.bgw{
+    background-color: #F1D00A;
+}
+.bgbisque{
+    background-color: bisque;
+}
+/* tamaños ----------------- */
+.h400{
+    height: 400px;
+}
+.h200{
+    height: 200px;
+}
+.w80{
+    width: 80%;
+}
+.h50{
+    height: 50px;
+}
+form{
+    width: 100%;
+}
+#icon_ubi{
+    height: 50px;
+    width: 10%;
+}
+#brow{
+    height: 50px;
+    width: 90%;
+}
+#btn{
+    width: 10%;
+}
+/* ordenamiento ------------ */
+.dflex{
+    display: flex;
+}
+.aic{
+    align-items: center;
+}
+.pa{
+    position: absolute;
+}
+.t380{
+    top: 380px;
+}
+.l10{
+    left: 10%;
+}
+/* inputs ------------------ */
+.
+/* browser ----------------- */
+#browser{
+}

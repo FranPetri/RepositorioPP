@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400;500;700&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Varela Round', sans-serif;
 }
 body{
     background-color: #043c60;
@@ -44,6 +44,9 @@ footer{
 .h200{
     height: 200px;
 }
+.w100{
+    width: 100%;
+}
 /* Listas ---------------------------- */
 .lsout{
     list-style: none;
@@ -51,6 +54,13 @@ footer{
 /* Tipografia -------------------------*/
 .txta{
     text-align: center;
+}
+.ffv{
+    font-family: 'Varela Round', sans-serif;
+}
+.ffr{
+    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 li i{
     font-size: 35px;
@@ -62,12 +72,18 @@ li a{
     text-decoration: none;
     color: black;
 }
+.fcw{
+    color:whitesmoke;
+}
 /* Odernamiento ---------------------- */
 .dflex{
     display: flex;
 }
 .jr{
     justify-content: right;
+}
+.jcc{
+    justify-content: center;
 }
 .spa{
     justify-content: space-around;
@@ -87,6 +103,9 @@ li a{
 .pd5{
     padding: 5px;
 }
+.mt10{
+    margin-bottom: 10px;
+}
 /* Card ------------------------------ */
 .card{
     background-color: #043c60;
@@ -98,4 +117,15 @@ li a{
     font-weight: 900;
     background-color: whitesmoke;
     border-radius: 5px;
+}
+@media screen and (max-width: 667px) {
+    .fdc{
+        flex-direction: column;
+    }
+    .jccmw{
+        justify-content: center;
+    }
+    .w100mw{
+        width: 100%;
+    }
 }
