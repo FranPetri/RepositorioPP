@@ -1,24 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* colores------------------ */
+/* tipografia --------------- */
+.frr{
+    font-family: 'Roboto Flex', sans-serif;
+}
+.med{
+    font-size: 30px!important;
+}
+.high{
+    font-size: 50px!important;
+}
+.fs20{
+    font-size: 20px;
+}
+/* colores ------------------ */
 .bgb{
     background-color: #21325E;
 }
 .bgw{
-    background-color: #F1D00A;
+    background-color: #c7c7c7;
 }
 .bgbisque{
     background-color: bisque;
+}
+.bgwhite{
+    background-color: white;
+}
+.cb{
+    color: black;
+}
+.cw{
+    color: white;
+}
+/* backgrounds ------------- */
+.bgirest{
+    background-image: url('img/restind.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bsblack{
+    box-shadow: inset 0 0 300px black;
 }
 /* tamaños ----------------- */
 .h400{
     height: 400px;
 }
-.h200{
-    height: 200px;
+.h300{
+    height: 300px;
 }
 .w80{
     width: 80%;
@@ -26,23 +59,45 @@
 .h50{
     height: 50px;
 }
+.h200{
+    height: 200px;
+}
+.h180{
+    height: 180px;
+}
 form{
     width: 100%;
 }
 #icon_ubi{
     height: 50px;
-    width: 10%;
+    width: 25%;
+    background-color: #c7c7c7;
+    border: none;
 }
 #brow{
     height: 50px;
     width: 90%;
+    background: none;
+    border: none;
+    padding: 25px;
 }
 #btn{
-    width: 10%;
+    width: 20%;
+    background: none;
+    border: none;
+}
+.br10{
+    border-radius: 10px;
+}
+.ovh{
+    overflow: hidden;
 }
 /* ordenamiento ------------ */
 .dflex{
     display: flex;
+}
+.column{
+    flex-direction: column;
 }
 .aic{
     align-items: center;
@@ -50,14 +105,31 @@ form{
 .pa{
     position: absolute;
 }
-.t380{
-    top: 380px;
+.spa{
+    justify-content: space-around;
+}
+.jcc{
+    justify-content: center;
+}
+.t275{
+    top: 275px;
+}
+.t200{
+    top: 200px;
+}
+.t500{
+    top: 500px;
 }
 .l10{
     left: 10%;
 }
-/* inputs ------------------ */
-.
-/* browser ----------------- */
-#browser{
+.l5{
+    left: 5%;
+}
+/* estilos ------------- */
+.td{
+    text-decoration: none;
+}
+.dsb{
+    filter: drop-shadow(0 10px 0.75rem rgb(61, 61, 61));
 }
