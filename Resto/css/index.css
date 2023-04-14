@@ -114,6 +114,9 @@ form{
 .t275{
     top: 275px;
 }
+.mt60{
+    margin-top: 60px;
+}
 .t200{
     top: 200px;
 }
@@ -132,4 +135,13 @@ form{
 }
 .dsb{
     filter: drop-shadow(0 10px 0.75rem rgb(61, 61, 61));
+}
+/* CARD ---------------- */
+.container_restaurant{
+}
+.img_rest{
+    background-image: url(img/restind.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
