@@ -65,6 +65,12 @@
 .h180{
     height: 180px;
 }
+.w150{
+    width: 150px;
+}
+.h150{
+    height: 150px;
+}
 form{
     width: 100%;
 }
@@ -91,6 +97,12 @@ form{
 }
 .ovh{
     overflow: hidden;
+}
+.br1010{
+    border-radius: 10px 0 10px 10px;
+}
+.br10l{
+    border-radius: 0 0 0 10px;
 }
 /* ordenamiento ------------ */
 .dflex{
