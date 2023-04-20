@@ -17,9 +17,21 @@
 .fs20{
     font-size: 20px;
 }
+.fs15{
+    font-size: 15px;
+}
+.fs12{
+    font-size: 12px;
+}
+.fs30{
+    font-size: 30px;
+}
 /* colores ------------------ */
 .bgb{
     background-color: #21325E;
+}
+.bgb2{
+    background-color: #3b5aa8;
 }
 .bgw{
     background-color: #c7c7c7;
@@ -29,6 +41,12 @@
 }
 .bgwhite{
     background-color: white;
+}
+.cg{
+    color: rgb(62, 62, 62);
+}
+.cggrad{
+     color: rgb(144, 143, 143);
 }
 .cb{
     color: black;
@@ -53,8 +71,17 @@
 .h300{
     height: 300px;
 }
+.h50{
+    height: 50px;
+}
 .w80{
     width: 80%;
+}
+.w50{
+    width: 45%;
+}
+.w100{
+    width: 100%;
 }
 .h50{
     height: 50px;
@@ -70,6 +97,18 @@
 }
 .h150{
     height: 150px;
+}
+.pd2{
+    padding: 10px 5px;
+}
+.pd1010{
+    padding: 20px 10px;
+}
+.pdt5{
+    padding-top: 5%;
+}
+.pdt10{
+    padding-top: 10px;
 }
 form{
     width: 100%;
@@ -101,8 +140,11 @@ form{
 .br1010{
     border-radius: 10px 0 10px 10px;
 }
+.br10010{
+    border-radius: 10px 0 10px;
+}
 .br10l{
-    border-radius: 0 0 0 10px;
+    border-radius: 0 0 10px 10px;
 }
 /* ordenamiento ------------ */
 .dflex{
@@ -120,6 +162,9 @@ form{
 .spa{
     justify-content: space-around;
 }
+.spb{
+    justify-content: space-between;
+}
 .jcc{
     justify-content: center;
 }
@@ -135,11 +180,26 @@ form{
 .t500{
     top: 500px;
 }
+.t530{
+    top: 530px;
+}
+.l20{
+    left: 50%;
+}
 .l10{
     left: 10%;
 }
 .l5{
     left: 5%;
+}
+.r42{
+    right: 42%;
+}
+.rp10{
+    right: 10%;
+}
+.rp9{
+    right: 9%;
 }
 /* estilos ------------- */
 .td{
@@ -147,6 +207,12 @@ form{
 }
 .dsb{
     filter: drop-shadow(0 10px 0.75rem rgb(61, 61, 61));
+}
+.dsbw{
+    filter: drop-shadow(0 10px 1rem rgb(255, 255, 255));
+}
+.tac{
+    text-align: left;
 }
 /* CARD ---------------- */
 .container_restaurant{
@@ -156,4 +222,52 @@ form{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.img_rest1{
+    background-image: url(img/restind1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img_rest2{
+    background-image: url(img/restind2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 662px) {
+    .ws80{
+        width: 55%;
+    }
+    .hs300{
+        height: 300px;
+    }
+    .ws300{
+        width: 350px;
+    }
+    .fss20{
+        font-size: 40px;
+    }
+    .fs12{
+        font-size: 20px;
+    }
+    .pd1010{
+        padding: 50px 35px;
+    }
+    .pdt5{
+        padding-top: 20px;
+    }
+    .pdt4{
+        padding-top: 10px;
+    }
+    .pds2{
+        padding: 18px 12px;
+    }
+    .row{
+         flex-direction: row;
+    }
+    .pdts20{
+        padding-top: 50px;
+    }
 }
