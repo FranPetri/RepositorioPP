@@ -48,17 +48,41 @@
 .bgg{
     background-color: rgb(206, 206, 206);
 }
+.bgo{
+    background-color: rgb(255, 132, 0);;
+}
+.bgbrown{
+    background-color: rgb(79, 32, 13);
+}
+.bgbrowngrad{
+    background-color: rgb(243, 225, 218);
+}
+.cbrown{
+    color: rgb(79, 32, 13);
+}
 .cg{
     color: rgb(62, 62, 62);
 }
 .cggrad{
      color: rgb(144, 143, 143);
 }
+.bggrad{
+    background-color:  rgb(144, 143, 143);;
+}
 .cb{
     color: black;
 }
+.co{
+    color:rgb(255, 132, 0);
+}
+.co2{
+    color: rgb(255, 165, 89);
+}
+.bgo2{
+    background-color: rgb(255, 165, 89);
+}
 .cw{
-    color: white;
+    color: rgb(246, 241, 233);
 }
 /* backgrounds ------------- */
 .bgirest{
@@ -80,11 +104,17 @@
 .h50{
     height: 50px;
 }
+.h45{
+    height: 45px;
+}
 .w80{
     width: 80%;
 }
-.w50{
+.w45{
     width: 45%;
+}
+.w35{
+    width: 35px;
 }
 .w100{
     width: 100%;
@@ -104,6 +134,9 @@
 .h150{
     height: 150px;
 }
+.h250{
+    height: 250px;
+}
 .pd40{
     padding: 20px 0 0 40px;
 }
@@ -122,8 +155,14 @@
 .pdt30{
     padding-top: 30px;
 }
+.pdt100{
+    padding-top: 100px;
+}
 .pdl30{
     padding-left: 30px;
+}
+.pd35{
+    padding: 35px;
 }
 form{
     width: 100%;
@@ -131,7 +170,6 @@ form{
 #icon_ubi{
     height: 50px;
     width: 25%;
-    background-color: #c7c7c7;
     border: none;
 }
 #brow{
@@ -155,8 +193,8 @@ form{
 .br1010{
     border-radius: 10px 0 10px 10px;
 }
-.br10010{
-    border-radius: 10px 0 10px;
+.br808{
+    border-radius: 8px 0 8px;
 }
 .br10l{
     border-radius: 0 0 10px 10px;
@@ -229,9 +267,10 @@ form{
 .tac{
     text-align: left;
 }
-/* CARD ---------------- */
-.container_restaurant{
+.tacent{
+    text-align: center;
 }
+/* CARD ---------------- */
 .img_rest{
     background-image: url(img/restind.jpg);
     background-repeat: no-repeat;
@@ -253,7 +292,13 @@ form{
 
 @media screen and (min-width: 662px) {
     .ws80{
-        width: 55%;
+        width: 60%;
+    }
+    .ws40{
+        width: 40px;
+    }
+    .hs50{
+        height: 50px;
     }
     .hs300{
         height: 300px;
