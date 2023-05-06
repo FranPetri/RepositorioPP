@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +10,15 @@
 /* tipografia --------------- */
 .frr{
     font-family: 'Roboto Flex', sans-serif;
+}
+.frc{
+    font-family: 'Righteous', cursive;
+}
+.fbs{
+    font-family: 'Bebas Neue', cursive;
+}
+.fc{
+    font-family: 'Cabin', sans-serif;
 }
 .med{
     font-size: 30px!important;
@@ -29,6 +41,12 @@
 .fs50{
     font-size: 50px;
 }
+.lsn{
+    list-style: none;
+}
+.tdn{
+    text-decoration: none;
+}
 /* colores ------------------ */
 .bgb{
     background-color: #21325E;
@@ -49,7 +67,7 @@
     background-color: rgb(206, 206, 206);
 }
 .bgo{
-    background-color: rgb(255, 132, 0);;
+    background-color: rgb(255, 132, 0);
 }
 .bgbrown{
     background-color: rgb(79, 32, 13);
@@ -64,7 +82,7 @@
     color: rgb(62, 62, 62);
 }
 .cggrad{
-     color: rgb(144, 143, 143);
+    color: rgb(144, 143, 143);
 }
 .bggrad{
     background-color:  rgb(144, 143, 143);;
@@ -107,8 +125,14 @@
 .h45{
     height: 45px;
 }
+.h55{
+    height: 55px;
+}
 .w80{
     width: 80%;
+}
+.width33{
+    width: 35%;
 }
 .w45{
     width: 45%;
@@ -122,6 +146,12 @@
 .h50{
     height: 50px;
 }
+.h90{
+    height: 90px;
+}
+.h75{
+    height: 75px;
+}
 .h200{
     height: 200px;
 }
@@ -133,6 +163,12 @@
 }
 .h150{
     height: 150px;
+}
+.h75{
+    height: 75px;
+}
+.h500{
+    height: 500px;
 }
 .h250{
     height: 250px;
@@ -163,6 +199,18 @@
 }
 .pd35{
     padding: 35px;
+}
+.pd15{
+    padding: 15px;
+}
+.pd5{
+    padding: 5px;
+}
+.ml40{
+    margin-left: 40px;
+}
+.midheight{
+    line-height: 50px;
 }
 form{
     width: 100%;
@@ -224,11 +272,20 @@ form{
 .t275{
     top: 275px;
 }
+.t250{
+    top: 250px;
+}
+.t395{
+    top: 395px;
+}
 .mt60{
     margin-top: 60px;
 }
 .t200{
     top: 200px;
+}
+.t120{
+    top: 325px;
 }
 .t500{
     top: 500px;
@@ -236,11 +293,26 @@ form{
 .t530{
     top: 530px;
 }
+.tm20{
+    top: -20px;
+}
+.t85{
+    top: 85px;
+}
+.m10{
+    margin: 10px;
+}
+.m20{
+    margin: 20px;
+}
 .l20{
     left: 50%;
 }
 .l10{
     left: 10%;
+}
+.l25{
+    left: 25%;
 }
 .l5{
     left: 5%;
@@ -253,6 +325,9 @@ form{
 }
 .rp9{
     right: 9%;
+}
+.rp5{
+    right: 5%;
 }
 /* estilos ------------- */
 .td{
@@ -269,6 +344,21 @@ form{
 }
 .tacent{
     text-align: center;
+}
+.dsbb{
+    box-shadow: 0px 15px 20px -20px #111; 
+}
+.bsc{
+    box-shadow: 0px 10px 30px -20px #111;
+}
+.opa5{
+    opacity: 0.5;
+}
+.opa1{
+    opacity: 1;
+}
+.ovf{
+    overflow-y: scroll;
 }
 /* CARD ---------------- */
 .img_rest{
@@ -289,8 +379,17 @@ form{
     background-size: cover;
     background-position: center;
 }
-
-@media screen and (min-width: 662px) {
+.imgPlato{
+    background-image: url(img/plato1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* asdsadsa */
+li:hover{
+    background-color: white;
+}
+@media screen and (min-width: 667px) {
     .ws80{
         width: 60%;
     }
@@ -299,6 +398,9 @@ form{
     }
     .hs50{
         height: 50px;
+    }
+    .hs100{
+        height: 100px;
     }
     .hs300{
         height: 300px;
@@ -331,7 +433,7 @@ form{
         padding: 50px 0 0 100px;
     }
     .row{
-         flex-direction: row;
+        flex-direction: row;
     }
     .pdts20{
         padding-top: 50px;
