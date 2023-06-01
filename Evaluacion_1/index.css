@@ -60,6 +60,9 @@ nav li{
 .brb{
     border-radius: 0 0 20px 20px;
 }
+.fb{
+    flex-basis: 50%;
+}
 .events{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(153,169,253,1) 25%, rgba(255,255,255,1) 70%);
@@ -68,6 +71,7 @@ footer{
     position: sticky;
     bottom: 0;
 }
+
 /* tipografia --------------- */
 .frr{
     font-family: 'Roboto Flex', sans-serif;
