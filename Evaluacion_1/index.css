@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+}
+header{
+    height: 15vh;
+    width: 100vw;
+    padding: 25px;
+}
+.w100vw{
+    width: 100vw;
+}
+.back_ws{
+    background-color: whitesmoke;
+}
+
+.cgreen{
+    color:rgb(61, 109, 214)
+}
+.brow_input{
+    border: none;
+    height: 50px;
+    width: 80vw;
+    padding: 25px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.icon_brow{
+    background: none;
+    border: none;
+    height: 30px;
+    position: absolute;
+    right: 15%;
+}
+.for_you{
+    position: absolute;
+    left: 15%;
+}
+.br50{
+    border-radius: 50px;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav li{
+    border-style: solid;
+    border-color: rgb(226, 225, 225);
+    padding: 10px;
+    border-radius: 20px;
+}
+.brb{
+    border-radius: 0 0 20px 20px;
+}
+.events{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(153,169,253,1) 25%, rgba(255,255,255,1) 70%);
+}
+footer{
+    position: sticky;
+    bottom: 0;
+}
+/* tipografia --------------- */
+.frr{
+    font-family: 'Roboto Flex', sans-serif;
+}
+.frc{
+    font-family: 'Righteous', cursive;
+}
+.fbs{
+    font-family: 'Bebas Neue', cursive;
+}
+.fc{
+    font-family: 'Cabin', sans-serif;
+}
+.med{
+    font-size: 30px!important;
+}
+.high{
+    font-size: 50px!important;
+}
+.fs20{
+    font-size: 20px;
+}
+.fs15{
+    font-size: 15px;
+}
+.fs12{
+    font-size: 12px;
+}
+.fs30{
+    font-size: 30px;
+}
+.fs50{
+    font-size: 50px;
+}
+.lsn{
+    list-style: none;
+}
+.tdn{
+    text-decoration: none;
+}
+/* colores ------------------ */
+.bgb{
+    background-color: #21325E;
+}
+.bgb2{
+    background-color: #3b5aa8;
+}
+.bgw{
+    background-color: #c7c7c7;
+}
+.bgbisque{
+    background-color: bisque;
+}
+.bgwhite{
+    background-color: white;
+}
+.bgg{
+    background-color: rgb(206, 206, 206);
+}
+.bgo{
+    background-color: rgb(255, 132, 0);
+}
+.bgbrown{
+    background-color: rgb(79, 32, 13);
+}
+.bgbrowngrad{
+    background-color: rgb(243, 225, 218);
+}
+.cbrown{
+    color: rgb(79, 32, 13);
+}
+.cg{
+    color: rgb(62, 62, 62);
+}
+.cggrad{
+    color: rgb(144, 143, 143);
+}
+.bggrad{
+    background-color:  rgb(144, 143, 143);;
+}
+.cb{
+    color: black;
+}
+.co{
+    color:rgb(255, 132, 0);
+}
+.co2{
+    color: rgb(255, 165, 89);
+}
+.bgo2{
+    background-color: rgb(255, 165, 89);
+}
+.cw{
+    color: rgb(246, 241, 233);
+}
+/* backgrounds ------------- */
+.bgirest{
+    background-image: url('img/restind.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bsblack{
+    box-shadow: inset 0 0 300px black;
+}
+.brt20{
+    border-radius: 20px 20px 0 0;
+}
+/* tamaños ----------------- */
+.h400{
+    height: 400px;
+}
+.h300{
+    height: 300px;
+}
+.h30{
+    height: 30px;
+}
+.h50{
+    height: 50px;
+}
+.h45{
+    height: 45px;
+}
+.h55{
+    height: 55px;
+}
+.h80{
+    height: 80px;
+}
+.w80{
+    width: 80%;
+}
+.width33{
+    width: 45%;
+}
+.w45{
+    width: 45%;
+}
+.w35{
+    width: 35px;
+}
+.w100{
+    width: 100%;
+}
+.h50{
+    height: 50px;
+}
+.h90{
+    height: 90px;
+}
+.h75{
+    height: 75px;
+}
+.h200{
+    height: 200px;
+}
+.h180{
+    height: 180px;
+}
+.w150{
+    width: 150px;
+}
+.h150{
+    height: 150px;
+}
+.h75{
+    height: 75px;
+}
+.h500{
+    height: 500px;
+}
+.h250{
+    height: 250px;
+}
+.pd40{
+    padding: 20px 0 0 40px;
+}
+.pd2{
+    padding: 10px 5px;
+}
+.pd1010{
+    padding: 20px 10px;
+}
+.pdt5{
+    padding-top: 5%;
+}
+.pdt10{
+    padding-top: 10px;
+}
+.pdt30{
+    padding-top: 30px;
+}
+.pdt100{
+    padding-top: 100px;
+}
+.pdl30{
+    padding-left: 30px;
+}
+.pd35{
+    padding: 35px;
+}
+.pd15{
+    padding: 15px;
+}
+.pd5{
+    padding: 5px;
+}
+.ml40{
+    margin-left: 40px;
+}
+.midheight{
+    line-height: 50px;
+}
+form{
+    width: 100%;
+}
+#icon_ubi{
+    height: 50px;
+    width: 25%;
+    border: none;
+}
+#brow{
+    height: 50px;
+    width: 90%;
+    background: none;
+    border: none;
+    padding: 25px;
+}
+#btn{
+    width: 20%;
+    background: none;
+    border: none;
+}
+.br10{
+    border-radius: 10px;
+}
+.ovh{
+    overflow: hidden;
+}
+.br1010{
+    border-radius: 10px 0 10px 10px;
+}
+.br808{
+    border-radius: 8px 0 8px;
+}
+.br10l{
+    border-radius: 0 0 10px 10px;
+}
+/* ordenamiento ------------ */
+.dflex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.aic{
+    align-items: center;
+}
+.pa{
+    position: absolute;
+}
+.spa{
+    justify-content: space-around;
+}
+.spb{
+    justify-content: space-between;
+}
+.jcc{
+    justify-content: center;
+}
+.t275{
+    top: 275px;
+}
+.t250{
+    top: 250px;
+}
+.t395{
+    top: 395px;
+}
+.mt60{
+    margin-top: 60px;
+}
+.t200{
+    top: 200px;
+}
+.t120{
+    top: 325px;
+}
+.t500{
+    top: 500px;
+}
+.t530{
+    top: 530px;
+}
+.tm20{
+    top: -20px;
+}
+.t85{
+    top: 85px;
+}
+.m10{
+    margin: 10px;
+}
+.m20{
+    margin: 20px;
+}
+.l20{
+    left: 50%;
+}
+.l10{
+    left: 10%;
+}
+.l25{
+    left: 25%;
+}
+.l5{
+    left: 5%;
+}
+.r42{
+    right: 42%;
+}
+.rp10{
+    right: 10%;
+}
+.rp9{
+    right: 9%;
+}
+.rp5{
+    right: 5%;
+}
+/* estilos ------------- */
+.td{
+    text-decoration: none;
+}
+.dsb{
+    filter: drop-shadow(0 1px 0.75rem rgb(61, 61, 61));
+}
+.dsbw{
+    filter: drop-shadow(0 10px 1rem rgb(255, 255, 255));
+}
+.tac{
+    text-align: left;
+}
+.tacent{
+    text-align: center;
+}
+.dsbb{
+    box-shadow: 0px 15px 20px -20px #111; 
+}
+.bsc{
+    box-shadow: 0px 10px 30px -20px #111;
+}
+.opa5{
+    opacity: 0.5;
+}
+.opa1{
+    opacity: 1;
+}
+.ovf{
+    overflow-y: scroll;
+}
+/* CARD ---------------- */
+.img_rest{
+    background-image: url(img/restind.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img_rest1{
+    background-image: url(img/restind1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img_rest2{
+    background-image: url(img/restind2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.imgPlato{
+    background-image: url(img/plato1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* asdsadsa */
+li:hover{
+    background-color: white;
+}
+@media screen and (min-width: 667px) {
+    .ws80{
+        width: 60%;
+    }
+    .ws40{
+        width: 40px;
+    }
+    .hs50{
+        height: 50px;
+    }
+    .hs100{
+        height: 100px;
+    }
+    .hs300{
+        height: 300px;
+    }
+    .ws300{
+        width: 350px;
+    }
+    .fss20{
+        font-size: 40px;
+    }
+    .fss50{
+        font-size: 50px;
+    }
+    .fs12{
+        font-size: 20px;
+    }
+    .pd1010{
+        padding: 50px 35px;
+    }
+    .pdt5{
+        padding-top: 20px;
+    }
+    .pdt4{
+        padding-top: 10px;
+    }
+    .pds2{
+        padding: 18px 12px;
+    }
+    .pd10{
+        padding: 50px 0 0 100px;
+    }
+    .row{
+        flex-direction: row;
+    }
+    .pdts20{
+        padding-top: 50px;
+    }
+}
